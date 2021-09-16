@@ -4,6 +4,8 @@ function getRandomNumber(min, max) {
   return Math.floor(Math.random() * (max - min) + min);
 }
 
+// Showing off my array function skills
+// in the cost of efficiency.
 function getAverage(array) {
   return (array.reduce((total, element) => {
     return total + element;
